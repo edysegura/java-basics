@@ -1,4 +1,4 @@
-## Getting Started
+# Java Basics
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
@@ -19,4 +19,5 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
 
 ## References
 
+- [Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)
 - [VSCode for Java](https://docs.google.com/presentation/d/1QXBWjX9oMz9hGn0SaVDaSHrn8S3HYCL9mEeLdrDUvWE/edit#slide=id.p)
