@@ -1,7 +1,7 @@
 package edu.polymorphism.music.instrument;
 
 public enum InstrumentTypes {
-  ELETRONIC_GUITAR,
+  ELECTRONIC_GUITAR,
   DRUM,
   PIANO,
   SAXOPHONE

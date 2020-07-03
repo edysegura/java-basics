@@ -12,7 +12,7 @@ public class App {
 
   public static void main(String[] args) {
     playInstrument(InstrumentTypes.DRUM);
-    playInstrument(InstrumentTypes.ELETRONIC_GUITAR);
+    playInstrument(InstrumentTypes.ELECTRONIC_GUITAR);
   }
 
 }

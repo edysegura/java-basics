@@ -4,8 +4,8 @@ public class InstrumentFactory {
 
   public static MusicalInstrument get(InstrumentTypes type) {
     switch (type) {
-      case ELETRONIC_GUITAR:
-        return new EletronicGuitar();
+      case ELECTRONIC_GUITAR:
+        return new ElectronicGuitar();
 
       case DRUM:
         return new Drum();
