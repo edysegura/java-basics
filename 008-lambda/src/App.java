@@ -11,7 +11,9 @@ public class App {
     names
       .stream()
       .map(App::decorate)
-      .forEach(System.out::print);
+      .forEach(System.out::println);
+
+    names.forEach(System.out::println);
   }
 
   public static String decorate(String name) {
