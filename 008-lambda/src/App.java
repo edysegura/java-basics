@@ -8,6 +8,14 @@ public class App {
     names.add("Lidy");
     names.add("Edy");
 
-    names.forEach(name -> System.out.println(name));
+    names
+      .stream()
+      .map(App::decorate)
+      .forEach(System.out::print);
   }
+
+  public static String decorate(String name) {
+    return String.format("---> %s <---", name.toUpperCase());
+  }
+
 }
