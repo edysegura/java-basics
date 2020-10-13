@@ -1,5 +1,11 @@
 public class Runner {
   public static void main(String[] args) {
-    System.out.println("Hi there!");
+    User user = User.builder()
+      .id("U37")
+      .name("Davi Segura")
+      .username("davisegura")
+      .build();
+
+    System.out.println("Hi there! " + user.getName());
   }
 }
